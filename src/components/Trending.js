@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Card, Col, Container, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import data from './news'
-import Trending2 from './Trending2'
 
 function Trending() {
   return (

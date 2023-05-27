@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react'
-import { Button, Col, Container, Row } from 'react-bootstrap';
+import React from 'react'
+import {  Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
 import data from './news';
 import Related from './Related';

@@ -2,7 +2,7 @@
 import { Col, Container, Nav, Navbar, Row } from 'react-bootstrap'
 import React, { useState } from 'react';
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap'
 import Home from './Home';
 import Single from './Single';

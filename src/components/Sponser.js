@@ -1,5 +1,5 @@
-import react from 'react'
-import { Card, Col, Container, Row } from 'react-bootstrap'
+
+import {  Container } from 'react-bootstrap'
 import Business from './Business'
 
 function Sponser() {
