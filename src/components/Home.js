@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from './Banner'
-import Breaking from './Breaking'
+// import Breaking from './Breaking'
 import Highlight from './Highlight'
 import Suscribe from './Suscribe'
 import Sponser from './Sponser'
@@ -16,7 +16,7 @@ function Home() {
       <Banner/>
       <Trend/>
       <Sponser/>
-      <Breaking/>
+      {/* <Breaking/> */}
       <Highlight/>
       <Trending/>
       <Related/>
