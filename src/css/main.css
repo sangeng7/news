@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&family=Nunito+Sans:wght@300;400;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  text-decoration: none;
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 1170px !important;
+  }
+}
+.header-top {
+  border-bottom: 1px solid #eee;
+}
+.header-top .social-icons ul li {
+  font-size: 18px;
+  color: #444;
+}
+.header-top .social-icons ul li:hover {
+  color: #7DB1F0;
+}
+
+.navbar .menu-icon {
+  font-size: 28px;
+  color: #444;
+}
+.navbar .nav-link {
+  font-size: 18px;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.offcanvas.offcanvas-start {
+  background-color: #292932;
+}
+.offcanvas.offcanvas-start .offcanvas-body p {
+  font-size: 14px;
+  color: #76767C;
+}
+.offcanvas.offcanvas-start .offcanvas-body h5 {
+  font-size: 18px;
+  color: white;
+}
+.offcanvas.offcanvas-start .offcanvas-body i {
+  font-size: 20px;
+}
+.offcanvas.offcanvas-start .offcanvas-body h6 {
+  font-size: 16px;
+  color: white;
+}
+
+.banner {
+  background: url(https://bloggar-react.wpocean.com/static/media/page-title.de3381cf77e3fdc3493e.jpg) top/cover;
+  min-height: 400px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.banner::before {
+  background: #232f4b;
+  content: "";
+  height: 100%;
+  opacity: 0.7;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+.banner .banner-text {
+  z-index: 2;
+}
+.banner .banner-text h3 {
+  font-size: 45px;
+}
+.banner .banner-text p {
+  font-size: 24px;
+}
+
+.trend .fasion::before {
+  content: "";
+  background-color: rgba(7, 7, 7, 0.4);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 16px;
+}
+.trend .fasion .fasion-text {
+  z-index: 1;
+  bottom: 0px;
+}
+.trend .fasion .fasion-btn {
+  background-color: hsla(0, 0%, 100%, 0.8);
+  color: #003aae;
+  font-size: 18px;
+}
+
+.sponser {
+  border: 1px solid #e9edff;
+}
+.sponser .sponser-header h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.sponser .business h4 {
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+}
+.sponser .card .card-title {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
+.sponser .card .card-text {
+  font-size: 16px;
+}
+
+.breaking .breaking-header {
+  display: inline-block;
+}
+.breaking .slides {
+  background-color: #F9FAFF;
+  border-left: 1px solid #e9edff;
+  border-right: 1px solid #e9edff;
+  border: 1px solid #e9edff;
+}
+.breaking .slides p {
+  font-size: 14px;
+  color: #76767C;
+}
+.breaking .slides h4 {
+  font-size: 17px;
+}
+
+.highlight .high-header h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.highlight .high-left {
+  border: 1px solid #e9edff;
+}
+.highlight .high-left .card {
+  border-bottom: 1px solid #e9edff !important;
+}
+.highlight .high-left .card .card-btn {
+  top: 15px;
+  left: 15px;
+  font-size: 18px;
+}
+.highlight .high-left .card .card-title {
+  line-height: 1.6;
+}
+.highlight .high-left .card h6 {
+  font-size: 16px;
+  color: #003aae;
+}
+.highlight .high-left .card h6 i {
+  font-size: 16px;
+}
+.highlight .high-left .card .img-card {
+  overflow: hidden;
+}
+.highlight .high-left .card .img-card .card-img, .highlight .high-left .card .img-card .card-img-top {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.highlight .high-left .card .img-card .card-img:hover, .highlight .high-left .card .img-card .card-img-top:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.highlight .high-left .bdr {
+  border: 0 !important;
+}
+.highlight .high-right {
+  border: 1px solid #e9edff;
+}
+.highlight .high-right img {
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.highlight .high-right p {
+  font-size: 12px;
+}
+.highlight .high-right h4 {
+  font-size: 16px;
+}
+
+.trending {
+  border: 1px solid #e9edff;
+}
+.trending .trending-header h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.trending .card .card-img-top {
+  height: 200px;
+}
+.trending .card .card-title a {
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+.trending .card .card-title a:hover {
+  color: #003aae;
+}
+.trending .card .card-text {
+  font-size: 14px;
+  color: #76767C;
+}
+
+.related .related-header h4 {
+  font-size: 30px;
+  font-weight: 700;
+}
+.related .card {
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
+}
+.related .card .card-img-top {
+  border-radius: 22px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.related .card p {
+  font-size: 13px;
+}
+.related .card p span {
+  background-color: #eaecef;
+  padding: 8px 12px;
+  border-radius: 60px;
+}
+.related .card .card-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+.related .card .card-text {
+  font-size: 12px;
+}
+.related .card:hover {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.suscribe {
+  background: url(https://bloggar-react.wpocean.com/static/media/newslatter-bg.52b69d1fbf1270402522.png) no-repeat;
+  padding: 70px 100px;
+  background-size: cover;
+  border-radius: 60px;
+}
+.suscribe .sus-text h4 {
+  font-size: 40px;
+}
+.suscribe .sus-text p {
+  font-size: 21px;
+}
+.suscribe .sus-form {
+  width: 100%;
+}
+.suscribe .sus-form form {
+  width: 64%;
+}
+.suscribe .sus-form form .sus-form-btn {
+  right: 10px;
+  top: 8px;
+}
+.suscribe .sus-form form .sus-form-btn i {
+  font-size: 18px;
+}
+
+.footer .footer-top {
+  background-color: #191A1F;
+  padding: 70px 0;
+  line-height: 1.9;
+}
+.footer .footer-top ul {
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.footer .footer-top ul li {
+  line-height: 2.4;
+}
+.footer .footer-top ul li:hover {
+  color: #003aae;
+}
+.footer .footer-top ul li:hover i {
+  color: white;
+}
+.footer .footer-top ul li a {
+  text-decoration: none;
+  background-color: hsla(0, 0%, 100%, 0.1);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.footer .footer-top ul li i {
+  font-size: 18px;
+}
+.footer .footer-bottom {
+  background-color: #101010;
+}
+
+.box {
+  background-color: rgba(55, 86, 247, 0.7);
+  padding: 12px;
+  width: 50px;
+  text-align: center;
+  position: fixed;
+  right: 25px;
+  bottom: 40px;
+  border-radius: 50%;
+  z-index: 999999;
+}
+.box:hover {
+  background-color: #0D6EFD;
+}
+.box i {
+  font-size: 16px;
+  font-weight: bolder;
+  color: white;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,135 @@
+@media (min-width: 0) and (max-width: 480px) {
+  .banner .banner-text h3 {
+    font-size: 38px !important;
+  }
+  .banner .banner-text p {
+    font-size: 18px !important;
+  }
+  .suscribe {
+    padding: 50px 70px !important;
+  }
+  .suscribe .sus-text h4 {
+    font-size: 32px !important;
+  }
+  .suscribe .sus-text p {
+    font-size: 16px !important;
+  }
+  .suscribe .sus-form form {
+    width: 90% !important;
+  }
+  .suscribe .sus-form form .sus-form-btn {
+    padding: 4px 10px !important;
+    font-size: 16px;
+    right: 2px !important;
+    top: 2.5px !important;
+  }
+  .suscribe .sus-form form .sus-form-btn i {
+    font-size: 16px;
+    margin-left: 2px !important;
+  }
+  .footer-top {
+    text-align: center;
+  }
+  .footer-top .footer-top-text {
+    padding: 0 !important;
+  }
+  .footer-top .footer-top-text ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-bottom p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 480px) and (max-width: 720px) {
+  .banner .banner-text h3 {
+    font-size: 40px !important;
+  }
+  .banner .banner-text p {
+    font-size: 20px !important;
+  }
+  .suscribe {
+    padding: 50px 70px !important;
+  }
+  .suscribe .sus-text h4 {
+    font-size: 32px !important;
+  }
+  .suscribe .sus-text p {
+    font-size: 16px !important;
+  }
+  .suscribe .sus-form form {
+    width: 90% !important;
+  }
+  .suscribe .sus-form form .sus-form-btn {
+    padding: 4px 10px !important;
+    font-size: 16px;
+    right: 2px !important;
+    top: 2.5px !important;
+  }
+  .suscribe .sus-form form .sus-form-btn i {
+    font-size: 16px;
+    margin-left: 2px !important;
+  }
+  .footer-top {
+    text-align: center;
+  }
+  .footer-top .footer-top-text {
+    padding: 0 !important;
+  }
+  .footer-top .footer-top-text ul {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer-bottom p {
+    font-size: 15px;
+  }
+}
+@media (min-width: 720px) and (max-width: 960px) {
+  .banner .banner-text h3 {
+    font-size: 46px !important;
+  }
+  .banner .banner-text p {
+    font-size: 20px !important;
+  }
+  .suscribe {
+    padding: 65px 80px !important;
+  }
+  .suscribe .sus-text h4 {
+    font-size: 32px !important;
+  }
+  .suscribe .sus-text p {
+    font-size: 16px !important;
+  }
+  .suscribe .sus-form form {
+    width: 70% !important;
+  }
+  .suscribe .sus-form form .sus-form-btn {
+    padding: 12px 10px !important;
+    font-size: 16px;
+    right: 3px !important;
+    top: 3px !important;
+  }
+  .suscribe .sus-form form .sus-form-btn i {
+    font-size: 16px;
+    margin-left: 2px !important;
+  }
+  .footer-top {
+    text-align: center;
+  }
+  .footer-top .footer-top-text {
+    padding: 0 !important;
+  }
+  .footer-bottom p {
+    font-size: 18px;
+  }
+}
+@media (min-width: 960px) and (max-width: 1200px) {
+  .banner .banner-text h3 {
+    font-size: 50px !important;
+  }
+  .banner .banner-text p {
+    font-size: 24px !important;
+  }
+}/*# sourceMappingURL=responsive.css.map */

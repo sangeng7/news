@@ -1,0 +1,170 @@
+@import "breakpoints";
+
+@include xs{
+    .banner{
+        .banner-text{
+            h3{
+                font-size: 38px !important;
+            }
+            p{
+                font-size: 18px !important;
+            }
+        }
+    }
+    .suscribe{
+        padding: 50px 70px !important;
+        .sus-text{
+            h4{
+                font-size: 32px !important;
+            }
+            p{
+                font-size: 16px !important;
+            }
+        }
+        .sus-form{
+            form{
+                width: 90% !important;
+               
+                .sus-form-btn{
+                   padding: 4px 10px !important;
+                   font-size: 16px;
+                   right: 2px !important;
+                   top: 2.5px !important;
+                    i{
+                        font-size: 16px;
+                        margin-left: 2px !important;
+                    }
+                }
+            }
+        }
+    }
+    .footer-top{
+        text-align: center;
+        .footer-top-text{
+            padding: 0 !important;
+            ul{
+                justify-content: center;
+            }
+        }
+    }
+    .footer-bottom{
+        p{
+            font-size: 12px;
+        }
+    }
+}
+@include sm{
+    .banner{
+        .banner-text{
+            h3{
+                font-size: 40px !important;
+            }
+            p{
+                font-size: 20px !important;
+            }
+        }
+    }
+    .suscribe{
+        padding: 50px 70px !important;
+        .sus-text{
+            h4{
+                font-size: 32px !important;
+            }
+            p{
+                font-size: 16px !important;
+            }
+        }
+        .sus-form{
+            form{
+                width: 90% !important;
+               
+                .sus-form-btn{
+                   padding: 4px 10px !important;
+                   font-size: 16px;
+                   right: 2px !important;
+                   top: 2.5px !important;
+                    i{
+                        font-size: 16px;
+                        margin-left: 2px !important;
+                    }
+                }
+            }
+        }
+    }
+    .footer-top{
+        text-align: center;
+        .footer-top-text{
+            padding: 0 !important;
+            ul{
+                justify-content: center;
+            }
+        }
+    }
+    .footer-bottom{
+        p{
+            font-size: 15px;
+        }
+    }
+}
+@include md{
+    .banner{
+        .banner-text{
+            h3{
+                font-size: 46px !important;
+            }
+            p{
+                font-size: 20px !important;
+            }
+        }
+    }
+    .suscribe{
+        padding: 65px 80px !important;
+        .sus-text{
+            h4{
+                font-size: 32px !important;
+            }
+            p{
+                font-size: 16px !important;
+            }
+        }
+        .sus-form{
+            form{
+                width: 70% !important;
+               
+                .sus-form-btn{
+                   padding: 12px 10px !important;
+                   font-size: 16px;
+                   right: 3px !important;
+                   top: 3px !important;
+                    i{
+                        font-size: 16px;
+                        margin-left: 2px !important;
+                    }
+                }
+            }
+        }
+    }
+    .footer-top{
+        text-align: center;
+        .footer-top-text{
+            padding: 0 !important;
+        }
+    }
+    .footer-bottom{
+        p{
+            font-size: 18px;
+        }
+    }
+}
+@include lg{
+    .banner{
+        .banner-text{
+            h3{
+                font-size: 50px !important;
+            }
+            p{
+                font-size: 24px !important;
+            }
+        }
+    }
+}
